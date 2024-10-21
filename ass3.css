@@ -5,7 +5,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* 確保邊框和內邊距不影響元素的總寬度和高度 */
+    box-sizing: border-box;
 }
 
 body {
@@ -15,10 +15,11 @@ body {
 }
 
 .text-content {
-    line-height: 1.6;
+    line-height: 1.7;
+    font-family: 'Source Han Serif TW', serif;
     color: white;
-    padding: 20px; /* 您可以根據需要調整 */
-    margin: 0; /* 確保沒有額外的邊距 */
+    padding: 20px;
+    margin: 0; 
     text-align: center;
 }
 
