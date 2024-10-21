@@ -2,3 +2,31 @@
     position: sticky;
     top: 0;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* 確保邊框和內邊距不影響元素的總寬度和高度 */
+}
+
+body {
+    font-family: 'Source Han Serif TW', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.text-content {
+    line-height: 1.6;
+    color: white;
+    padding: 20px; /* 您可以根據需要調整 */
+    margin: 0; /* 確保沒有額外的邊距 */
+    text-align: center;
+}
+
+.sticky-top {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
